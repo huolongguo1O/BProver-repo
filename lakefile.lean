@@ -9,3 +9,5 @@ package «lean4-example» {
 lean_lib «Lean4Example» {
   -- add library configuration options here
 }
+require mathlib from git
+  "https://github.com/leanprover-community/mathlib4"
